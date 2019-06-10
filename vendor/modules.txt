@@ -1,0 +1,33 @@
+# github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce
+github.com/hashicorp/errwrap
+# github.com/hashicorp/go-multierror v0.0.0-20150916205742-d30f09973e19
+github.com/hashicorp/go-multierror
+# github.com/hashicorp/go-version v0.0.0-20160214002439-2e7f5ea8e27b
+github.com/hashicorp/go-version
+# github.com/hashicorp/yamux v0.0.0-20160420054621-c8a8a076e085
+github.com/hashicorp/yamux
+# github.com/mitchellh/go-fs v0.0.0-20150611040906-a34c1b9334e8
+github.com/mitchellh/go-fs
+github.com/mitchellh/go-fs/fat
+# github.com/mitchellh/iochan v0.0.0-20150529224432-87b45ffd0e95
+github.com/mitchellh/iochan
+# github.com/mitchellh/mapstructure v0.0.0-20160212031839-d2dd02622084
+github.com/mitchellh/mapstructure
+# github.com/mitchellh/multistep v0.0.0-20140407010115-162146fc5711
+github.com/mitchellh/multistep
+# github.com/mitchellh/packer v0.10.1
+github.com/mitchellh/packer/common
+github.com/mitchellh/packer/helper/config
+github.com/mitchellh/packer/packer
+github.com/mitchellh/packer/packer/plugin
+github.com/mitchellh/packer/template/interpolate
+github.com/mitchellh/packer/template
+github.com/mitchellh/packer/packer/rpc
+github.com/mitchellh/packer/common/uuid
+# github.com/mitchellh/reflectwalk v0.0.0-20150527153153-eecf4c70c626
+github.com/mitchellh/reflectwalk
+# github.com/ugorji/go v0.0.0-20160328060740-a396ed22fc04
+github.com/ugorji/go/codec
+# golang.org/x/crypto v0.0.0-20160426145109-285fb2ed20d1
+golang.org/x/crypto/ssh
+golang.org/x/crypto/curve25519
