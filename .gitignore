@@ -12,3 +12,4 @@ packer-builder-*
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 dist/config.yaml
+dist/*
