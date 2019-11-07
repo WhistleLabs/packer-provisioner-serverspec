@@ -1,0 +1,31 @@
+# Configuration for https://goreleaser.com/
+project_name: packer-provisioner-serverspec
+
+builds:
+  - id: packer-provisioner-serverspec
+    binary: packer-provisioner-serverspec
+    main: main.go
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+    env:
+      - CGO_ENABLED=0
+
+archives:
+  - id: packer-provisioner-serverspec
+    builds: [ packer-provisioner-serverspec ]
+    name_template: '{{ .ProjectName }}_{{ .Major }}.{{ .Minor }}.{{ .Patch }}_{{ .Os }}_{{ .Arch }}{{ if .Arm
+      }}v{{ .Arm }}{{ end }}'
+    format_overrides:
+      - goos: linux
+        format: zip
+      - goos: darwin
+        format: zip
+    replacements:
+      darwin: darwin
+      linux: linux
+      amd64: amd64
+    files:
+      - none*
